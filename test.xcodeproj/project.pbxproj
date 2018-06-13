@@ -14,6 +14,7 @@
 		0D1A3B2B20D0A72200422093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A3B2920D0A72200422093 /* LaunchScreen.storyboard */; };
 		0D1A3B3620D0A72200422093 /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A3B3520D0A72200422093 /* testTests.swift */; };
 		0D1A3B4120D0A72200422093 /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A3B4020D0A72200422093 /* testUITests.swift */; };
+		0D1A3B4F20D0A7EA00422093 /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A3B4E20D0A7EA00422093 /* TestTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0D1A3B3C20D0A72200422093 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D1A3B4020D0A72200422093 /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		0D1A3B4220D0A72200422093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D1A3B4E20D0A7EA00422093 /* TestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				0D1A3B2020D0A72100422093 /* AppDelegate.swift */,
 				0D1A3B2220D0A72100422093 /* ViewController.swift */,
 				0D1A3B2420D0A72100422093 /* Main.storyboard */,
+				0D1A3B4E20D0A7EA00422093 /* TestTableViewCell.swift */,
 				0D1A3B2720D0A72200422093 /* Assets.xcassets */,
 				0D1A3B2920D0A72200422093 /* LaunchScreen.storyboard */,
 				0D1A3B2C20D0A72200422093 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				0D1A3B2320D0A72100422093 /* ViewController.swift in Sources */,
 				0D1A3B2120D0A72100422093 /* AppDelegate.swift in Sources */,
+				0D1A3B4F20D0A7EA00422093 /* TestTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX8GF82K43;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX8GF82K43;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
