@@ -49,7 +49,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0FR-UF-3bD">
-                                                    <rect key="frame" x="285" y="0.0" width="90" height="315.5"/>
+                                                    <rect key="frame" x="285" y="5" width="90" height="305.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="90" id="7kC-mD-bZw"/>
                                                     </constraints>
@@ -58,15 +58,16 @@
                                             <constraints>
                                                 <constraint firstItem="lkO-51-R1Z" firstAttribute="leading" secondItem="Ni2-Xb-dEI" secondAttribute="leading" id="5zD-Sy-eoF"/>
                                                 <constraint firstItem="0FR-UF-3bD" firstAttribute="leading" secondItem="lkO-51-R1Z" secondAttribute="trailing" constant="5" id="7Iq-rg-qgZ"/>
+                                                <constraint firstItem="0FR-UF-3bD" firstAttribute="top" secondItem="Ofc-RQ-3hw" secondAttribute="top" id="9bV-Ta-W2Z"/>
                                                 <constraint firstItem="Ofc-RQ-3hw" firstAttribute="top" secondItem="Ni2-Xb-dEI" secondAttribute="top" constant="5" id="Awn-0t-C6C"/>
                                                 <constraint firstItem="lkO-51-R1Z" firstAttribute="top" secondItem="Ofc-RQ-3hw" secondAttribute="bottom" constant="5" id="CuP-m7-Qv9"/>
-                                                <constraint firstItem="0FR-UF-3bD" firstAttribute="top" secondItem="Ni2-Xb-dEI" secondAttribute="top" id="Nx8-FE-43E"/>
+                                                <constraint firstItem="0FR-UF-3bD" firstAttribute="centerY" secondItem="Ni2-Xb-dEI" secondAttribute="centerY" id="LPw-vy-9VG"/>
                                                 <constraint firstAttribute="bottom" secondItem="dMY-C0-dNU" secondAttribute="bottom" constant="5" id="PK7-Nb-s9z"/>
                                                 <constraint firstAttribute="trailing" secondItem="0FR-UF-3bD" secondAttribute="trailing" id="YgZ-fa-i93"/>
                                                 <constraint firstItem="dMY-C0-dNU" firstAttribute="top" secondItem="lkO-51-R1Z" secondAttribute="bottom" constant="5" id="ac3-3m-ftn"/>
                                                 <constraint firstItem="0FR-UF-3bD" firstAttribute="leading" secondItem="dMY-C0-dNU" secondAttribute="trailing" constant="5" id="buT-mx-XWr"/>
                                                 <constraint firstItem="0FR-UF-3bD" firstAttribute="leading" secondItem="Ofc-RQ-3hw" secondAttribute="trailing" constant="5" id="h8F-Uz-uRb"/>
-                                                <constraint firstAttribute="bottom" secondItem="0FR-UF-3bD" secondAttribute="bottom" id="sQF-gn-adi"/>
+                                                <constraint firstItem="0FR-UF-3bD" firstAttribute="bottom" secondItem="dMY-C0-dNU" secondAttribute="bottom" id="rK0-et-dJC"/>
                                                 <constraint firstItem="Ofc-RQ-3hw" firstAttribute="leading" secondItem="Ni2-Xb-dEI" secondAttribute="leading" id="sxK-PP-9d0"/>
                                                 <constraint firstItem="dMY-C0-dNU" firstAttribute="leading" secondItem="Ni2-Xb-dEI" secondAttribute="leading" id="zTU-yY-IcC"/>
                                             </constraints>
