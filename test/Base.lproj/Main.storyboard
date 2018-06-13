@@ -42,8 +42,8 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0FR-UF-3bD">
-                                                    <rect key="frame" x="285" y="107" width="90" height="204"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0FR-UF-3bD">
+                                                    <rect key="frame" x="285" y="5" width="90" height="306"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="90" id="7kC-mD-bZw"/>
                                                     </constraints>
@@ -61,7 +61,6 @@
                                                 <constraint firstItem="Ofc-RQ-3hw" firstAttribute="top" secondItem="Ni2-Xb-dEI" secondAttribute="top" constant="5" id="Awn-0t-C6C"/>
                                                 <constraint firstItem="lkO-51-R1Z" firstAttribute="top" secondItem="Ofc-RQ-3hw" secondAttribute="bottom" constant="5" id="CuP-m7-Qv9"/>
                                                 <constraint firstAttribute="trailing" secondItem="Ofc-RQ-3hw" secondAttribute="trailing" constant="95" id="Kvc-ko-oGV"/>
-                                                <constraint firstItem="0FR-UF-3bD" firstAttribute="centerY" secondItem="Ni2-Xb-dEI" secondAttribute="centerY" id="LPw-vy-9VG"/>
                                                 <constraint firstAttribute="bottom" secondItem="dMY-C0-dNU" secondAttribute="bottom" constant="5" id="PK7-Nb-s9z"/>
                                                 <constraint firstItem="lkO-51-R1Z" firstAttribute="trailing" secondItem="Ofc-RQ-3hw" secondAttribute="trailing" id="QFQ-Cp-U7P"/>
                                                 <constraint firstItem="dMY-C0-dNU" firstAttribute="trailing" secondItem="Ofc-RQ-3hw" secondAttribute="trailing" id="XyC-Nc-OXO"/>
